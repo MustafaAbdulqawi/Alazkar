@@ -1,7 +1,3 @@
-- name: Install dependencies
-  run: bundle install
-  working-directory: ios
+source "https://rubygems.org"
 
-- name: Run Fastlane
-  run: bundle exec fastlane beta
-  working-directory: ios
+gem "fastlane"
