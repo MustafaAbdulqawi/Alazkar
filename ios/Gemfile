@@ -1,0 +1,7 @@
+- name: Install dependencies
+  run: bundle install
+  working-directory: ios
+
+- name: Run Fastlane
+  run: bundle exec fastlane beta
+  working-directory: ios
