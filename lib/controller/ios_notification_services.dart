@@ -2,7 +2,6 @@ import 'dart:math';
 import 'dart:io';
 import 'package:azkar2/controller/static_variables.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:get/get.dart';
 
 class IOSNotificationService {
   static final FlutterLocalNotificationsPlugin _notificationsPlugin =
